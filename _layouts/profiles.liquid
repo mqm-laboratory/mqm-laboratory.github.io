@@ -26,14 +26,14 @@ layout: page
           <h4>
               {{ profile.name }}
           </h4>
-          {% if profile.email %}
-          <p>email: {{ profile.email }}</p>
-          {% endif %}
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
           {% else %}
             {{ content }}
+          {% endif %}
+          {% if profile.email %}
+          <p>email: {{ profile.email }}</p>
           {% endif %}
         </div>
       {% endfor %}
