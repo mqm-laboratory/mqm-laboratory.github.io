@@ -17,6 +17,7 @@ profiles:
     image_circular: false # crops the image to make it circular
   - align: right
     name: Ben Fox
+    email: benjamin.fox.23
     image: ben-fox.png
     content: about_ben.md
     image_circular: false # crops the image to make it circular
