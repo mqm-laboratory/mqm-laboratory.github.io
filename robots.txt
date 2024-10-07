@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lcaldwell.github.io/sitemap.xml
+Sitemap: https://mqm-laboratory.github.io/sitemap.xml
