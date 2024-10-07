@@ -17,8 +17,8 @@ profiles:
     image_circular: false # crops the image to make it circular
   - align: right
     name: Ben Fox
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: ben-fox.png
+    content: about_ben.md
     image_circular: false # crops the image to make it circular
   - align: right
     name: Sam Haswell
