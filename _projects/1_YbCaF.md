@@ -4,78 +4,14 @@ title: YbCaF
 description: Ultracold triatomic molecules for nuclear symmetry violation
 img: assets/img/platform-alt.jpg
 importance: 1
-category: work
-related_publications: true
+category: current
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The universe seems to be made of matter and not antimatter. This is confusing because our best model of particle physics, the Standard Model, contains no processes which could have enabled such a large imbalance between matter and antimatter to develop. To explain the imbalance, there must be new, undiscovered physics which violates combined CP symmetry. If such new physics exists, it is likely hidden at high energies - high enough to evade detection in our most powerful particle colliders, but low enough to have been relevant in the hot early universe where the imbalance developed.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+While these hypothetical exotic new particles have masses too high (or coupling constants too low) to be directly detected by current particle collider experiments like the LHC, their existence can also be inferred from their subtle effect on run-of-the-mill, everyday particles. If a quantum field supporting these new particles exists, and it couples to the Standard Model in some way, it will generically induce tiny CP-violating electromagnetic moments in known Standard Model particles. The lowest order examples of such CP-violating moments are electric dipole moments and magnetic quadrupole moments. In this experiment, we are aiming to make a very precise measurment of the magentic quadrupole moment of the Yb-173 nucleus. A non-zero result would reveal new physics, while a null result would rule out a large swathe of parameter space and help guide new theories.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The signal of a nuclear magnetic quadrupole moment is enhanced in quadrupole deformed nuclei (shaped like a rugby ball, or an american football) like Yb-173. The signal is also hugely enhanced by embedding the nucleus in a polar molecule. We aim to build YbCaF molecules for our measurement. The triatomic structure of the molecule provides powerful techniques to reject many of the most important forms of systematic error in these experiments. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite caldwell2023 %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+To create this very strange molecule, we will separately laser cool Yb atoms and CaF molecules in optical tweezers and then associate them together to create the triatomics. The YbCaF molecules will be produced at ultracold temperatures and confined in optical tweezer traps, an excellent starting point for a precision measurement.
