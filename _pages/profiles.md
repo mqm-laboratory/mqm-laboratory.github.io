@@ -23,7 +23,8 @@ profiles:
     image_circular: false # crops the image to make it circular
   - align: right
     name: Sam Haswell
-    image: prof_pic.jpg
-    content: about_einstein.md
+    email: samuel.haswell.24
+    image: sam-prof-pic.jpg
+    content: about_sam.md
     image_circular: false # crops the image to make it circular
 ---

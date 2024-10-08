@@ -1,0 +1,3 @@
+Sam did his undergrad at the University of Nottingham studying natural science. He completed his master’s project, under the supervision of Matt Brookes, which involved using quantum-enabled magnetometers to make measurements of brain activity in order to create a brain-computer interface. He looks to continue his work with quantum metrology here at UCL, doing his PhD under the tutelage of Luke Caldwell.
+
+Outside of academia he is an avid baker, a consumer of terrible reality TV and was previously a dispensing technician at a pharmacy.
