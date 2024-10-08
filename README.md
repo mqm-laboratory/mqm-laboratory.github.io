@@ -14,4 +14,8 @@ Similarly, news posts can be saved in `_news` folder. The name uses the same for
 
 # People
 
-New people can be added by appending them to `_pages/profiles.md`. By convention, the text for each person is stored in `_pages/about_name.md`.
+New people can be added by appending them to `_pages/profiles.md`. By convention, the text for each person is stored in `_pages/about_name.md`. Images are stored in `assets/img` folder and should be sqaure aspect ratio.
+
+# Projects
+
+New projects can be added to the `_projects` folder.
