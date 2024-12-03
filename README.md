@@ -1,6 +1,8 @@
 # General
 
-This website uses github pgaes and jekyll and was created using the template from [al-folio]https://github.com/alshedivat/al-folio). Many of the features have not changed significantly and so for anything you are unsure about, that is an excellent resource!
+This website uses github pages and jekyll and was created using the template from [al-folio]https://github.com/alshedivat/al-folio). Many of the features have not changed significantly and so for anything you are unsure about, that is an excellent resource!
+
+The site can be run locally using docker. The command to beging serving the site is `docker compose up`. The site should then be available at `localhost:8080`.
 
 Changes to the website should be pushed to `main` branch. There is then a github action setup to deploy changes to gh-pages branch from where the website is served.
 
