@@ -27,4 +27,10 @@ profiles:
     image: sam-prof-pic.jpg
     content: about_sam.md
     image_circular: false # crops the image to make it circular
+  - align: right
+    name: Cathy Darling
+    email: cathy.darling.24
+    image: cathy-prof-pic.jpg
+    content: about_cathy.md
+    image_circular: false # crops the image to make it circular
 ---
