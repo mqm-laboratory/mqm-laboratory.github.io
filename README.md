@@ -8,7 +8,7 @@ Changes to the website should be pushed to `main` branch. There is then a github
 
 # Blog
 
-Blog posts should be in markdown format and added to `_posts` folder. Their name should be in the format YYYY-mm-dd-name-of-blog-post.md where the date is the date the post was published. 
+Blog posts should be in markdown format and added to `_posts` folder. Their name should be in the format YYYY-mm-dd-name-of-blog-post.md where the date is the date the post was published.
 
 # News
 

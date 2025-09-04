@@ -24,7 +24,7 @@ layout: page
 
         <div class="clearfix">
           <h4>
-              {{ profile.name }}
+            {{ profile.name }}
           </h4>
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
@@ -33,7 +33,7 @@ layout: page
             {{ content }}
           {% endif %}
           {% if profile.email %}
-          <p>email: {{ profile.email }}</p>
+            <p>email: {{ profile.email }}</p>
           {% endif %}
         </div>
       {% endfor %}

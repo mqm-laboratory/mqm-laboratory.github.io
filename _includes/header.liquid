@@ -6,9 +6,17 @@
         <a class="pull-left" href="#">
           {% assign icon_image_path = site.icon | prepend: 'assets/img/' %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-          <figure><picture>
-            <img src="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-          </picture></figure>
+          <figure>
+            <picture>
+              <img
+                src="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}"
+                width="100%"
+                height="auto"
+                loading="eager"
+                onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+              >
+            </picture>
+          </figure>
         </a>
       {% endif %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
