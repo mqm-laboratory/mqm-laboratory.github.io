@@ -14,28 +14,34 @@ profiles:
     email: luke.caldwell
     image: prof_pic_luke.jpeg
     content: about_luke.md
+    type: PI
     image_circular: false # crops the image to make it circular
   - align: right
     name: Ben Fox
     email: benjamin.fox.23
     image: ben-fox.png
     content: about_ben.md
+    type: PhD
     image_circular: false # crops the image to make it circular
   - align: right
     name: Sam Haswell
     email: samuel.haswell.24
     image: sam-prof-pic.jpg
     content: about_sam.md
+    type: PhD
     image_circular: false # crops the image to make it circular
   - align: right
     name: Cathy Darling
     email: cathy.darling.24
     image: cathy-prof-pic.jpg
     content: about_cathy.md
+    type: PhD
     image_circular: false # crops the image to make it circular
   - align: right
     name: Henry Sewell
     email: h.sewell
     image: henry-prof-pic.jpg
     content: about_henry.md
+    type: PDRA
+    image_circular: false # crops the image to make it circular
 ---

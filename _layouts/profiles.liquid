@@ -4,39 +4,29 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
+      {% assign PIs = page.profiles | where: 'type', 'PI' %}
+      <div class="profile-subgroup">
+        <h2>PI</h2>
+        {% for PI in PIs %}
+          {% include profile.liquid profile=PI %}
+        {% endfor %}
+      </div>
 
-        <div class="clearfix">
-          <h4>
-            {{ profile.name }}
-          </h4>
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-          {% if profile.email %}
-            <p>email: {{ profile.email }}</p>
-          {% endif %}
-        </div>
-      {% endfor %}
+      {% assign PDRAs = page.profiles | where: 'type', 'PDRA' %}
+      <div class="profile-subgroup">
+        <h2>Postdocs</h2>
+        {% for PDRA in PDRAs %}
+          {% include profile.liquid profile=PDRA %}
+        {% endfor %}
+      </div>
+
+      {% assign phd_students = page.profiles | where: 'type', 'PhD' %}
+      <div class="profile-subgroup">
+        <h2>PhD students</h2>
+        {% for phd_student in phd_students %}
+          {% include profile.liquid profile=phd_student %}
+        {% endfor %}
+      </div>
     {% endif %}
   </article>
 </div>
