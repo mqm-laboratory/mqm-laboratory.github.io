@@ -33,4 +33,9 @@ profiles:
     image: cathy-prof-pic.jpg
     content: about_cathy.md
     image_circular: false # crops the image to make it circular
+  - align: right
+    name: Henry Sewell
+    email: h.sewell
+    image: henry-prof-pic.jpg
+    content: about_henry.md
 ---
